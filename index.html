@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Juan Antonio de Lara | Dirección, Finanzas y Operaciones</title>
+
+  <meta name="description" content="Juan Antonio de Lara Cifuentes. Perfil ejecutivo especializado en dirección general, finanzas, rentabilidad, estrategia y transformación de negocios.">
+
+  <meta name="theme-color" content="#142B45">
+
+  <style>
+    :root {
+      --navy: #142B45;
+      --navy-light: #203D5D;
+      --teal: #167D83;
+      --teal-light: #E5F3F2;
+      --white: #FFFFFF;
+      --background: #F3F5F7;
+      --text: #283442;
+      --muted: #647386;
+      --border: #E1E6EB;
+      --shadow: 0 12px 35px rgba(20, 43, 69, 0.08);
+      --radius: 18px;
+      --max-width: 1160px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .container {
+      width: min(var(--max-width), calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 88px 0;
+    }
+
+    .section-muted {
+      background: var(--background);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--teal);
+      font-size: 0.77rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 13px;
+    }
+
+    h1, h2, h3 {
+      color: var(--navy);
+      line-height: 1.2;
+      letter-spacing: -0.035em;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+      max-width: 850px;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 2.9rem);
+      margin-bottom: 18px;
+    }
+
+    h3 {
+      font-size: 1.22rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    .section-intro {
+      max-width: 720px;
+      font-size: 1.04rem;
+    }
+
+    .section-heading {
+      margin-bottom: 38px;
+    }
+
+    .section-heading p {
+      max-width: 730px;
+    }
+
+    /* Navegación */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      color: var(--navy);
+      font-size: 1.02rem;
+      font-weight: 850;
+      letter-spacing: 0.045em;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .brand small {
+      color: var(--teal);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-top: 5px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 21px;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 650;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--teal);
+    }
+
+    .nav-links .nav-contact {
+      color: var(--white);
+      background: var(--navy);
+      padding: 10px 16px;
+      border-radius: 9px;
+    }
+
+    .nav-links .nav-contact:hover {
+      background: var(--teal);
+      color: var(--white);
+    }
+
+    .menu-toggle {
+      display: none;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: white;
+      color: var(--navy);
+      padding: 8px 12px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    /* Inicio */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 76px;
+      background:
+        radial-gradient(circle at 90% 15%, rgba(22, 125, 131, 0.12), transparent 27%),
+        linear-gradient(135deg, #FFFFFF 0%, #F4F7FA 100%);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -140px;
+      bottom: -270px;
+      width: 530px;
+      height: 530px;
+      border: 1px solid rgba(22, 125, 131, 0.15);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+    }
+
+    .hero h1 span {
+      color: var(--teal);
+    }
+
+    .hero-description {
+      max-width: 750px;
+      font-size: 1.15rem;
+      margin-top: 25px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #DCE4EA;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 7px 13px;
+      color: var(--navy);
+      font-size: 0.83rem;
+      font-weight: 700;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 32px;
+    }
+
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 9px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 13px 20px;
+      font-weight: 750;
+      font-size: 0.93rem;
+      transition: transform 0.2s ease, background 0.2s ease;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--navy);
+      color: white;
+    }
+
+    .button-primary:hover {
+      background: var(--teal);
+    }
+
+    .button-secondary {
+      border-color: #CDD7E0;
+      color: var(--navy);
+      background: white;
+    }
+
+    .button-secondary:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .hero-note {
+      margin-top: 18px;
+      font-size: 0.82rem;
+    }
+
+    /* Indicadores */
+
+    .metrics {
+      position: relative;
+      z-index: 2;
+      margin-top: -1px;
+      background: var(--navy);
+      color: white;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .metric {
+      padding: 31px 24px;
+      border-right: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .metric:last-child {
+      border-right: 0;
+    }
+
+    .metric strong {
+      display: block;
+      color: white;
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      letter-spacing: -0.04em;
+      line-height: 1.15;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 9px;
+      color: #C9D6E2;
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+
+    /* Tarjetas y cuadrículas */
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      height: 100%;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: 0 4px 15px rgba(20, 43, 69, 0.025);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    .card-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      margin-bottom: 22px;
+      border-radius: 13px;
+      background: var(--teal-light);
+      color: var(--teal);
+      font-size: 1.35rem;
+      font-weight: 800;
+    }
+
+    .card-link {
+      display: inline-flex;
+      margin-top: 20px;
+      color: var(--teal);
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Perfil ejecutivo */
+
+    .profile-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 55px;
+      align-items: start;
+    }
+
+    .profile-copy p + p {
+      margin-top: 16px;
+    }
+
+    .profile-panel {
+      padding: 30px;
+      border-radius: var(--radius);
+      background: var(--navy);
+      color: white;
+    }
+
+    .profile-panel h3 {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .profile-panel ul {
+      list-style: none;
+    }
+
+    .profile-panel li {
+      position: relative;
+      padding: 11px 0 11px 25px;
+      color: #E0E8F0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+      font-size: 0.94rem;
+    }
+
+    .profile-panel li:last-child {
+      border-bottom: 0;
+    }
+
+    .profile-panel li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #6DD2C9;
+      font-weight: 900;
+    }
+
+    .profile-note {
+      padding: 16px 18px;
+      margin-top: 25px;
+      border-left: 3px solid var(--teal);
+      background: var(--teal-light);
+      border-radius: 0 9px 9px 0;
+      font-size: 0.91rem;
+    }
+
+    .experience-list {
+      display: grid;
+      gap: 15px;
+      margin-top: 28px;
+    }
+
+    .experience-item {
+      padding: 20px 22px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .experience-item strong {
+      display: block;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .experience-item span {
+      display: block;
+      color: var(--teal);
+      font-size: 0.85rem;
+      font-weight: 750;
+      margin-bottom: 6px;
+    }
+
+    .experience-item p {
+      font-size: 0.9rem;
+    }
+
+    .education {
+      margin-top: 30px;
+      padding: 25px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .education p + p {
+      margin-top: 8px;
+    }
+
+    /* Paneles de contenidos futuros */
+
+    .future-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 10px;
+      margin-bottom: 17px;
+      border-radius: 100px;
+      background: #FFF3D9;
+      color: #805D15;
+      font-size: 0.75rem;
+      font-weight: 800;
+    }
+
+    .status::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #D89A27;
+    }
+
+    .future-card .card-icon {
+      margin-bottom: 17px;
+    }
+
+    .resource-card {
+      display: flex;
+      gap: 17px;
+      align-items: flex-start;
+    }
+
+    .resource-card .card-icon {
+      flex: 0 0 48px;
+      margin-bottom: 0;
+    }
+
+    /* Contacto */
+
+    .contact-box {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 35px;
+      align-items: center;
+      padding: 48px;
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at 95% 10%, rgba(22, 125, 131, 0.23), transparent 30%),
+        var(--navy);
+      color: white;
+    }
+
+    .contact-box h2 {
+      color: white;
+    }
+
+    .contact-box p {
+      color: #D4DFE9;
+    }
+
+    .contact-box .eyebrow {
+      color: #72D1C9;
+    }
+
+    .contact-details {
+      padding: 25px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .contact-details p {
+      font-size: 0.9rem;
+    }
+
+    .contact-details p + p {
+      margin-top: 12px;
+    }
+
+    .contact-box .button {
+      margin-top: 22px;
+      background: white;
+      color: var(--navy);
+    }
+
+    .contact-box .button:hover {
+      background: #DFF4F1;
+    }
+
+    /* Pie de página */
+
+    .site-footer {
+      padding: 27px 0;
+      border-top: 1px solid var(--border);
+      background: white;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer-inner p {
+      font-size: 0.82rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 17px;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--teal);
+    }
+
+    /* Accesibilidad y adaptación */
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #5FC6BE;
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 1000px) {
+      .nav-links {
+        gap: 13px;
+      }
+
+      .nav-links a {
+        font-size: 0.79rem;
+      }
+
+      .brand {
+        font-size: 0.91rem;
+      }
+
+      .profile-layout {
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 820px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav {
+        position: relative;
+        min-height: 70px;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 69px;
+        left: -20px;
+        right: -20px;
+        padding: 18px 20px 24px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        background: white;
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 12px 8px;
+        font-size: 0.95rem;
+      }
+
+      .nav-links .nav-contact {
+        text-align: center;
+        margin-top: 7px;
+      }
+
+      .hero {
+        padding: 76px 0 60px;
+      }
+
+      .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .metric:nth-child(2) {
+        border-right: 0;
+      }
+
+      .metric:nth-child(-n+2) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+      }
+
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .profile-layout,
+      .contact-box {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-box {
+        padding: 34px;
+      }
+
+      .section {
+        padding: 68px 0;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .container {
+        width: min(100% - 30px, var(--max-width));
+      }
+
+      .hero {
+        padding: 60px 0 48px;
+      }
+
+      .hero-description {
+        font-size: 1.02rem;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .metrics-grid,
+      .grid-3,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .metric {
+        padding: 23px 18px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+      }
+
+      .metric:last-child {
+        border-bottom: 0;
+      }
+
+      .card {
+        padding: 23px;
+      }
+
+      .contact-box {
+        padding: 27px 22px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .section {
+        padding: 57px 0;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <header class="site-header">
+    <div class="container nav">
+
+      <a class="brand" href="#inicio" aria-label="Juan Antonio de Lara, inicio">
+        JUAN ANTONIO DE LARA
+        <small>DIRECCIÓN · FINANZAS · OPERACIONES</small>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="navLinks">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#perfil">Perfil ejecutivo</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#blog">Blog</a>
+        <a href="#recursos">Recursos</a>
+        <a class="nav-contact" href="#contacto">Contacto</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-content">
+
+          <span class="eyebrow">Perfil ejecutivo · Visión de negocio</span>
+
+          <h1>
+            Visión global del negocio.
+            <span>Decisiones con criterio.</span>
+            Resultados sostenibles.
+          </h1>
+
+          <p class="hero-description">
+            Profesional de dirección y gestión empresarial con más de
+            20 años de experiencia en gestión financiera, dirección general
+            y mejora operativa. Orientado a convertir la información en
+            decisiones, optimizar recursos y construir negocios rentables
+            y sostenibles.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tag">Dirección general y estrategia</span>
+            <span class="tag">Finanzas y rentabilidad</span>
+            <span class="tag">Operaciones y transformación</span>
+            <span class="tag">BI e inteligencia artificial</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#perfil">
+              Conocer mi trayectoria <span aria-hidden="true">→</span>
+            </a>
+
+            <a class="button button-secondary"
+               href="#perfil"
+               aria-label="Ir al perfil para acceder al currículum">
+              Consultar mi CV
+            </a>
+          </div>
+
+          <p class="hero-note">
+            Experiencia en entornos industriales, metalúrgicos,
+            alimentarios y de servicios.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INDICADORES -->
+    <section class="metrics" aria-label="Indicadores de trayectoria profesional">
+      <div class="container metrics-grid">
+
+        <div class="metric">
+          <strong>20+</strong>
+          <span>Años de experiencia profesional</span>
+        </div>
+
+        <div class="metric">
+          <strong>7,2 M€</strong>
+          <span>Deuda reestructurada en una experiencia profesional</span>
+        </div>
+
+        <div class="metric">
+          <strong>4,7 M€</strong>
+          <span>Subvención no reembolsable obtenida en una experiencia profesional</span>
+        </div>
+
+        <div class="metric">
+          <strong>100+</strong>
+          <span>Personas en equipos dirigidos en una experiencia internacional</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ÁREAS DE ESPECIALIZACIÓN -->
+    <section class="section" id="especialidades">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Propuesta de valor</span>
+          <h2>Conectar estrategia, números y ejecución</h2>
+          <p class="section-intro">
+            Una visión transversal de la empresa para comprender los retos
+            del negocio, identificar oportunidades y transformar los planes
+            en resultados medibles.
+          </p>
+        </div>
+
+        <div class="grid-3">
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">↗</div>
+            <h3>Dirección y estrategia</h3>
+            <p>
+              Dirección general, planificación estratégica, desarrollo
+              de negocio, análisis de oportunidades y coordinación de
+              equipos multidisciplinares.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">€</div>
+            <h3>Finanzas y rentabilidad</h3>
+            <p>
+              Control de gestión, planificación financiera, tesorería,
+              reestructuración de deuda, control de costes y seguimiento
+              de indicadores económicos.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">◎</div>
+            <h3>Operaciones y transformación</h3>
+            <p>
+              Mejora de procesos, optimización de recursos, gestión
+              operativa, cuadros de mando y apoyo a la toma de decisiones
+              mediante datos y tecnología.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PERFIL EJECUTIVO -->
+    <section class="section section-muted" id="perfil">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Perfil ejecutivo</span>
+          <h2>Experiencia con perspectiva global</h2>
+          <p class="section-intro">
+            Juan Antonio de Lara Cifuentes · Dirección General ·
+            Gerencia · CEO · Dirección Financiera · CFO
+          </p>
+        </div>
+
+        <div class="profile-layout">
+
+          <div class="profile-copy">
+            <h3>Un enfoque integral de la empresa</h3>
+
+            <p>
+              Mi trayectoria combina responsabilidades de dirección
+              general, gestión financiera, administración y desarrollo
+              comercial. Esta experiencia me permite analizar una
+              organización desde la estrategia hasta la ejecución,
+              conectando las decisiones económicas con la realidad
+              operativa.
+            </p>
+
+            <p>
+              He trabajado en diferentes sectores y contextos
+              empresariales, participando en procesos de crecimiento,
+              recuperación de rentabilidad, reorganización, optimización
+              de costes y mejora de la información para la dirección.
+            </p>
+
+            <p>
+              Mi enfoque de gestión se apoya en el análisis riguroso,
+              la responsabilidad sobre los resultados, la mejora continua
+              y el desarrollo de equipos capaces de ejecutar los objetivos.
+            </p>
+
+            <div class="profile-note">
+              <strong>Mi criterio de gestión:</strong>
+              comprender el negocio, medir lo importante, priorizar
+              los recursos y ejecutar con responsabilidad.
+            </div>
+
+            <div class="experience-list">
+
+              <article class="experience-item">
+                <strong>ATOX Sistemas de Almacenaje</strong>
+                <span>Dirección financiera · Junio–octubre de 2025</span>
+                <p>
+                  Experiencia en responsabilidad financiera y control
+                  de gestión.
+                </p>
+              </article>
+
+              <article class="experience-item">
+                <strong>Congelados Basilio</strong>
+                <span>Responsable financiero · Octubre de 2021–mayo de 2025</span>
+                <p>
+                  Gestión financiera en el sector alimentario.
+                </p>
+              </article>
+
+              <article class="experience-item">
+                <strong>Ganor Engineering</strong>
+                <span>Adjunto a Dirección General · Enero de 2018–febrero de 2019</span>
+                <p>
+                  Apoyo a la dirección y a la gestión general del negocio.
+                </p>
+              </article>
+
+              <article class="experience-item">
+                <strong>Cultivos Toralla · Chile</strong>
+                <span>CEO / Subgerencia General · Octubre de 2012–abril de 2015</span>
+                <p>
+                  Experiencia internacional de dirección y gestión de
+                  una organización con más de 100 personas, asociada
+                  a una ampliación de la capacidad productiva.
+                </p>
+              </article>
+
+              <article class="experience-item">
+                <strong>Grupo AGALSA</strong>
+                <span>CEO / Director · Noviembre de 2006–mayo de 2011</span>
+                <p>
+                  Responsabilidades de dirección y gestión empresarial.
+                </p>
+              </article>
+
+            </div>
+
+            <p style="margin-top: 20px; font-size: 0.85rem;">
+              Esta selección muestra algunas etapas de la trayectoria.
+              El CV completo incluirá el resto de los puestos, las fechas
+              y los detalles profesionales.
+            </p>
+          </div>
+
+          <aside>
+            <div class="profile-panel">
+              <h3>Ámbitos de especialización</h3>
+              <ul>
+                <li>Dirección general y planificación estratégica</li>
+                <li>Control de gestión y análisis financiero</li>
+                <li>Planificación de tesorería y financiación</li>
+                <li>Reestructuración y recuperación de rentabilidad</li>
+                <li>Optimización de costes y procesos</li>
+                <li>Gestión de equipos multidisciplinares</li>
+                <li>Cuadros de mando e indicadores de negocio</li>
+                <li>Business Intelligence e inteligencia artificial</li>
+                <li>Desarrollo comercial y apertura de mercados</li>
+              </ul>
+            </div>
+
+            <div class="education">
+              <h3>Formación</h3>
+              <p>
+                <strong>Formación universitaria:</strong> Administración
+                y Dirección de Empresas y Diplomatura en Ciencias
+                Empresariales.
+              </p>
+              <p>
+                <strong>Formación de posgrado:</strong> Máster Europeo
+                en Dirección de Empresas, MBA, Máster en Dirección
+                de Equipos y Máster en Inteligencia Artificial aplicada
+                a la empresa.
+              </p>
+              <p style="margin-top: 15px;">
+                <strong>Idiomas:</strong> español nativo; inglés,
+                portugués y gallego de nivel intermedio; francés básico.
+              </p>
+            </div>
+
+            <div class="card" style="margin-top: 22px;">
+              <div class="card-icon" aria-hidden="true">↓</div>
+              <h3>Currículum completo</h3>
+              <p>
+                Consulta o descarga la versión formal del currículum
+                cuando el documento PDF esté incorporado al portal.
+              </p>
+              <a class="card-link" href="#contacto">
+                Consultar disponibilidad del CV →
+              </a>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="section" id="dashboard">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Análisis y gestión</span>
+          <h2>Dashboard ejecutivo</h2>
+          <p class="section-intro">
+            Un espacio destinado a visualizar indicadores, analizar
+            resultados y facilitar la toma de decisiones empresariales.
+          </p>
+        </div>
+
+        <div class="grid-2">
+
+          <article class="card future-card">
+            <span class="status">Integración pendiente</span>
+            <div class="card-icon" aria-hidden="true">▥</div>
+            <h3>Panel profesional</h3>
+            <p>
+              Aquí se integrará el dashboard original, respetando su
+              contenido y su diseño. Podrá incluir los indicadores
+              y las funcionalidades que ya tenga implementados.
+            </p>
+          </article>
+
+          <article class="card future-card">
+            <span class="status">Preparado para ampliar</span>
+            <div class="card-icon" aria-hidden="true">⌁</div>
+            <h3>Indicadores de negocio</h3>
+            <p>
+              Espacio previsto para análisis de rentabilidad, evolución
+              de ingresos, costes, tesorería, productividad y otros
+              indicadores, según el contenido que se incorpore.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section section-muted" id="blog">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Ideas para la gestión</span>
+          <h2>Dirigir con criterio</h2>
+          <p class="section-intro">
+            Un espacio para compartir reflexiones sobre dirección
+            empresarial, finanzas, liderazgo, operaciones y decisiones
+            basadas en información.
+          </p>
+        </div>
+
+        <div class="grid-2">
+
+          <article class="card future-card">
+            <span class="status">Blog original pendiente de integrar</span>
+            <div class="card-icon" aria-hidden="true">✎</div>
+            <h3>Dirigir con criterio</h3>
+            <p>
+              Este apartado se conectará con el archivo original del blog
+              cuando esté disponible. Se conservará el contenido existente
+              y se adaptará su acceso al portal profesional.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">◎</div>
+            <h3>Temas del espacio editorial</h3>
+            <p>
+              Dirección y estrategia; control financiero; rentabilidad;
+              liderazgo; transformación empresarial; indicadores y
+              tecnología aplicada a la gestión.
+            </p>
+            <p style="margin-top: 12px; font-size: 0.85rem;">
+              Estas son las líneas temáticas previstas, no publicaciones
+              ya existentes.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section class="section" id="recursos">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Herramientas de gestión</span>
+          <h2>Recursos profesionales</h2>
+          <p class="section-intro">
+            Un espacio para reunir herramientas prácticas que ayuden
+            a estructurar el análisis y mejorar la gestión empresarial.
+          </p>
+        </div>
+
+        <div class="grid-2">
+
+          <article class="card resource-card">
+            <div class="card-icon" aria-hidden="true">▤</div>
+            <div>
+              <h3>Control de gestión</h3>
+              <p>
+                Espacio previsto para cuadros de mando, seguimiento
+                presupuestario y análisis de desviaciones.
+              </p>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-icon" aria-hidden="true">€</div>
+            <div>
+              <h3>Planificación financiera</h3>
+              <p>
+                Futuras plantillas de apoyo a la planificación de
+                tesorería, costes y rentabilidad.
+              </p>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-icon" aria-hidden="true">↗</div>
+            <div>
+              <h3>Estrategia y decisiones</h3>
+              <p>
+                Herramientas previstas para ordenar prioridades,
+                evaluar escenarios y realizar seguimiento de objetivos.
+              </p>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-icon" aria-hidden="true">⌘</div>
+            <div>
+              <h3>Datos e inteligencia artificial</h3>
+              <p>
+                Espacio para compartir aplicaciones de BI y herramientas
+                de IA orientadas a mejorar el análisis empresarial.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+        <p style="margin-top: 24px; font-size: 0.87rem;">
+          Los materiales descargables se incorporarán progresivamente.
+          Las tarjetas actuales describen las áreas previstas y todavía
+          no contienen archivos de descarga.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-muted" id="contacto">
+      <div class="container">
+
+        <div class="contact-box">
+
+          <div>
+            <span class="eyebrow">Contacto profesional</span>
+            <h2>Hablemos de negocio y oportunidades</h2>
+            <p>
+              Para conversaciones profesionales relacionadas con dirección
+              general, finanzas, operaciones, mejora de resultados y
+              transformación empresarial.
+            </p>
+          </div>
+
+          <div class="contact-details">
+            <p><strong>Juan Antonio de Lara Cifuentes</strong></p>
+            <p>Dirección General · Finanzas · Operaciones</p>
+            <p>
+              El correo electrónico profesional se configurará antes
+              de publicar la versión definitiva del contacto.
+            </p>
+            <a class="button"
+               href="mailto:CAMBIAR-POR-TU-CORREO">
+              Preparar correo de contacto →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <p>
+        © <span id="currentYear"></span> Juan Antonio de Lara.
+        Perfil profesional.
+      </p>
+
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#perfil">Perfil ejecutivo</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"
+      );
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    navLinks.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Abrir menú de navegación");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    document.getElementById("currentYear").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
